@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>studentpersonalinfo</title>
+</head>
+
+<body align="center">
+    <form action="stud.jsp">
+        <fieldset>
+            <legend align="center">Student Academic information</legend>
+            <label for="Name">Name</label>
+            <input type="text" name="name" id="name"><br><br>
+            <label for="jntuno">JNTUno</label>
+            <input type="text" name="jntuno" id="jntuno"><br><br>
+            <label for="stream">Stream</label>
+            <input type="text" name="stream" id="stream"><br><br>
+            <label for="Yop">Year of Passing</label>
+            <input type="year" name="yop" id="yop"><br><br>
+            <label for="cgpa">CGPA</label>
+            <input type="cgpa" name="cgpa" id="cgpa"><br><br>
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
